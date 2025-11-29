@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fidele Content Studio</title>
+    <style>
+        body {font-family: Arial,sans-serif;margin:0;padding:0;background-color:#f5f5f5;}
+        header{background-color:#25D366;color:white;padding:30px 20px;text-align:center;}
+        header h1{margin:0;font-size:2.5em;}
+        header p{margin:5px 0 0 0;font-size:1.2em;}
+        nav{display:flex;justify-content:center;background-color:#333;}
+        nav a{color:white;padding:15px 20px;text-decoration:none;font-weight:bold;}
+        nav a:hover{background-color:#25D366;}
+        .hero{text-align:center;padding:100px 20px;background-image:url('https://images.unsplash.com/photo-1605902711622-cfb43c4439d5?auto=format&fit=crop&w=1950&q=80');background-size:cover;background-position:center;color:white;position:relative;}
+        .hero::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);z-index:1;}
+        .hero-content{position:relative;z-index:2;}
+        .hero h2{font-size:2.8em;margin:0;}
+        .hero p{font-size:1.2em;margin-top:15px;}
+        .hero a{display:inline-block;margin-top:25px;background-color:#fff;color:#25D366;padding:15px 35px;text-decoration:none;font-weight:bold;border-radius:5px;}
+        .hero a:hover{background-color:#e6e6e6;}
+        .packages{text-align:center;padding:60px 20px;background-color:#f0f0f0;}
+        .packages h2{color:#333;margin-bottom:40px;}
+        .package-cards{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
+        .package{background-color:white;padding:25px;border-radius:10px;width:280px;box-shadow:0px 4px 10px rgba(0,0,0,0.1);}
+        .package h3{color:#25D366;margin-top:0;}
+        .package ul{text-align:left;padding-left:20px;}
+        .package a{display:inline-block;margin-top:15px;background-color:#25D366;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;}
+        .package a:hover{background-color:#1DA851;}
+        .services{padding:60px 20px;text-align:center;}
+        .services h2{color:#333;margin-bottom:40px;}
+        .service-cards{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
+        .service{background-color:white;padding:25px;width:250px;border-radius:10px;box-shadow:0px 4px 10px rgba(0,0,0,0.1);}
+        .service img{width:100%;border-radius:10px;}
+        .service h3{color:#25D366;margin-top:15px;}
+        .service p{color:#555;font-size:16px;}
+        .gallery{padding:60px 20px;text-align:center;background-color:#f0f0f0;}
+        .gallery h2{margin-bottom:40px;}
+        .gallery-images{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
+        .gallery-images img{width:250px;height:150px;border-radius:10px;object-fit:cover;box-shadow:0px 4px 10px rgba(0,0,0,0.1);}
+        .about{background-color:#fff;padding:60px 20px;text-align:center;}
+        .about h2{margin-bottom:30px;}
+        .about p{max-width:800px;margin:0 auto;color:#555;font-size:18px;}
+        .contact{padding:60px 20px;text-align:center;}
+        .contact h2{margin-bottom:30px;}
+        .contact p{font-size:18px;color:#555;}
+        .whatsapp-float{position:fixed;bottom:20px;right:20px;background-color:#25D366;color:white;padding:15px 20px;border-radius:50px;text-decoration:none;font-weight:bold;font-size:16px;box-shadow:0 4px 8px rgba(0,0,0,0.2);display:flex;align-items:center;z-index:100;}
+        .whatsapp-float:hover{background-color:#1DA851;}
+        footer{background-color:#333;color:white;text-align:center;padding:20px;}
+        @media (max-width:768px){.package-cards,.service-cards,.gallery-images{flex-direction:column;align-items:center;}.hero h2{font-size:2em;}}
+    </style>
+</head>
+<body>
+
+<header>
+<h1>Fidele Content Studio</h1>
+<p>Professional Content Creation for Your Business Growth</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#packages">Packages</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<div class="hero-content">
+<h2>High-Quality Content That Drives Results</h2>
+<p>Logos, social media posts, videos, and AI-enhanced content for professional branding and growth.</p>
+<a href="https://wa.me/250780229232?text=Hello%2C%20I%20am%20interested%20in%20content%20for%20my%20business.%20Can%20you%20help%20me%3F" target="_blank">Get Started</a>
+</div>
+</section>
+
+<section class="packages" id="packages">
+<h2>Our Content Packages</h2>
+<div class="package-cards">
+<div class="package">
+<h3>Basic Package</h3>
+<ul>
+<li>4 Social Media Posts</li>
+<li>2 Short Reels</li>
+<li>Captions included</li>
+</ul>
+<a href="https://wa.me/250780229232?text=I%20want%20the%20Basic%20Package">Order Now</a>
+</div>
+<div class="package">
+<h3>Standard Package</h3>
+<ul>
+<li>8 Social Media Posts</li>
+<li>4 Reels</li>
+<li>Logo & Brand Colors</li>
+<li>Captions included</li>
+</ul>
+<a href="https://wa.me/250780229232?text=I%20want%20the%20Standard%20Package">Order Now</a>
+</div>
+<div class="package">
+<h3>Premium Package</h3>
+<ul>
+<li>12 Social Media Posts</li>
+<li>6 Reels</li>
+<li>Flyers & Posters</li>
+<li>Brand Storytelling & Strategy</li>
+</ul>
+<a href="https://wa.me/250780229232?text=I%20want%20the%20Premium%20Package">Order Now</a>
+</div>
+</div>
+</section>
+
+<section class="services" id="services">
+<h2>Our Services</h2>
+<div class="service-cards">
+<div class="service">
+<img src="https://images.unsplash.com/photo-1605902711622-cfb43c4439d5?auto=format&fit=crop&w=600&q=80" alt="Social Media Content">
+<h3>Social Media Content</h3>
+<p>Posts, stories, and reels to engage your audience and grow online.</p>
+</div>
+<div class="service">
+<img src="https://images.unsplash.com/photo-1591696205602-2ec03dfcd671?auto=format&fit=crop&w=600&q=80" alt="Branding Design">
+<h3>Branding & Design</h3>
+<p>Logos, flyers, posters, and professional branding for your business.</p>
+</div>
+<div class="service">
+<img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=80" alt="AI Content">
+<h3>AI-Enhanced Content</h3>
+<p>AI-generated images and content to save time and increase quality.</p>
+</div>
+</div>
+</section>
+
+<section class="gallery" id="gallery">
+<h2>Our Work Gallery</h2>
+<div class="gallery-images">
+<img src="https://via.placeholder.com/250x150?text=Logo+Sample1" alt="Logo Sample">
+<img src="https://via.placeholder.com/250x150?text=Social+Post1" alt="Social Post">
+<img src="https://via.placeholder.com/250x150?text=Video+Cover" alt="Video Cover">
+<img src="https://via.placeholder.com/250x150?text=Poster+Design" alt="Poster Design">
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>About Fidele Content Studio</h2>
+<p>We are professionals dedicated to creating high-quality content for businesses. From logos and social media posts to videos and AI-enhanced content, we help brands stand out, attract customers, and grow online.</p>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<p>Reach out via WhatsApp to discuss your project or get a quote!</p>
+<p><strong>Phone/WhatsApp:</strong> 0780 229 232</p>
+</section>
+
+<a class="whatsapp-float" href="https://wa.me/250780229232?text=Hello%2C%20I%20am%20interested%20in%20content%20for%20my%20business.%20Can%20you%20help%20me%3F" target="_blank">
+💬 Chat with us
+</a>
+
+<footer>
+&copy; 2025 Fidele Content Studio. All rights reserved.
+</footer>
+
+</body>
+</html>
